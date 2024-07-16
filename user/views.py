@@ -46,7 +46,7 @@ def signup(request):
 			mess = f"Hello {usr.first_name},\nYour OTP is {usr_otp}\nThanks!"
 
 			send_mail(
-				"Welcome to ITScorer - Verify Your Email",
+				"Welcome to EDEMS YOU CAN VERIFY THE MAIL SERIVCE BY US   - Verify Your Email",
 				mess,
 				settings.EMAIL_HOST_USER,
 				[usr.email],
@@ -72,7 +72,7 @@ def resend_otp(request):
 			mess = f"Hello {usr.first_name},\nYour OTP is {usr_otp}\nThanks!"
 
 			send_mail(
-				"Welcome to ITScorer - Verify Your Email",
+				"Welcome to EDEMS - Verify Your Email",
 				mess,
 				settings.EMAIL_HOST_USER,
 				[usr.email],
@@ -119,7 +119,7 @@ def login_view(request):
 			mess = f"Hello {usr.first_name},\nYour OTP is {usr_otp}\nThanks!"
 
 			send_mail(
-				"Welcome to ITScorer - Verify Your Email",
+				"Welcome to EDEMS - Verify Your Email",
 				mess,
 				settings.EMAIL_HOST_USER,
 				[usr.email],
