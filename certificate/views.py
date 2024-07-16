@@ -493,8 +493,13 @@ def track(request, id, slug):
         'tags': tags,
     })
 
+
 @login_required
 def view_certificate_status(request):
     return render(request, 'certificate/view_certificate_status.html', {
         'events': Event.objects.filter(user=request.user)
     })
+
+
+
+

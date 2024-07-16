@@ -6,5 +6,6 @@ urlpatterns = [
 	path('view_certificate_status', view_certificate_status, name="view_certificate_status"),
 	path('<int:id>/<slug:slug>', track, name='track'),
 	path('delete/<int:id>/<slug:slug>', delete_event, name='delete_event'),
+	#  path('url', your_view_name, name='your_view_name'), 
 
 ]
