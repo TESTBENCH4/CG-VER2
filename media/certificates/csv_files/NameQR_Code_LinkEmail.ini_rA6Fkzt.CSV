@@ -1,0 +1,6 @@
+Name,QR Code Link,Email
+Alice Smith,https://api.qrserver.com/v1/create-qr-code/?color=000000&bgcolor=FFFFFF&data=Alice%20Smith&qzone=1&margin=0&size=400x400&ecc=L,yashsingh1125@gmail.com
+Bob Johnson,https://api.qrserver.com/v1/create-qr-code/?color=000000&bgcolor=FFFFFF&data=Bob%20Johnson&qzone=1&margin=0&size=400x400&ecc=L,yashsingh1125@gmail.com
+Charlie Brown,https://api.qrserver.com/v1/create-qr-code/?color=000000&bgcolor=FFFFFF&data=Charlie%20Brown&qzone=1&margin=0&size=400x400&ecc=L,yashsingh1125@gmail.com
+David Wilson,https://api.qrserver.com/v1/create-qr-code/?color=000000&bgcolor=FFFFFF&data=David%20Wilson&qzone=1&margin=0&size=400x400&ecc=L,yashsingh1125@gmail.com
+Eva Green,https://api.qrserver.com/v1/create-qr-code/?color=000000&bgcolor=FFFFFF&data=Eva%20Green&qzone=1&margin=0&size=400x400&ecc=L,yashsingh1125@gmail.com
