@@ -412,6 +412,9 @@ def track(request, id, slug):
         df_len = df.shape[0]
         i = 0
 
+        # credetials for tdata0465@gmail.com 
+
+
         data = {
             "client_id": "473692605888-cju6d348n671vao051da72ct265htjkb.apps.googleusercontent.com",
             "client_secret": "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",

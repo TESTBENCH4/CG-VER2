@@ -116,6 +116,9 @@ LOGIN_REDIRECT_URL = 'home'
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 
+
+# use the credentials of sending email id 
+# genrate the EMAIL_HOST_PASSWORD by going into the privacy setting and genrate a password for it . 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
